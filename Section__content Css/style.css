@@ -1,0 +1,108 @@
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.section__conteudo{
+    text-align: center;
+    padding: 60px 100px;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 30px;
+}
+
+.box__Titulo{
+    font-size: 40px;
+    margin-bottom: 13px;
+    color: rgb(79, 78, 78);
+}
+
+.Box__Subtitulo{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(145, 137, 137);
+}
+
+.box__text{
+    padding: 0 90px;
+    font-size: 17px;
+    margin-bottom: 40px;
+    color: rgb(109, 106, 106);
+    line-height: 1.2;
+}
+
+.btn__link{
+    text-decoration: none;
+    border: 1px solid rgb(90, 89, 89);
+    padding: 10px 20px;
+    color: rgba(82, 82, 82, 0.686);
+}
+
+/* Medias Querie
+==========================================================*/
+
+@media (max-width: 711px) {
+    .section__conteudo{
+        width: 100%;
+        text-align: center;
+    }
+    .box__Titulo{
+        font-size: 30px;
+    }
+    .Box__Subtitulo{
+        font-size: 16px;
+    }
+    .box__text{
+        font-size: 16px;
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 577px){
+    .box__Titulo{
+        font-size: 25px;
+    }
+    .Box__Subtitulo{
+        font-size: 14px;
+    }
+    .box__text{
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 487px){
+    .box__Titulo{
+        font-size: 23px;
+    }
+    .Box__Subtitulo{
+        font-size: 13px;
+    }
+    .box__text{
+        font-size: 15px;
+        padding: 0;
+    }
+    .btn__link{
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 280px) {
+    .box__Titulo{
+        width: 100%;
+        font-size: 16px;
+    }
+    .Box__Subtitulo{
+        font-size: 15px;
+        text-transform: lowercase;
+    }
+    .box__text{
+        font-size: 12px;
+        padding: 0;
+    }
+    .btn__link{
+        padding: 3px;
+        font-size: 12px;
+    }
+}

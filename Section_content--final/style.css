@@ -1,0 +1,56 @@
+.content__final{
+    width: 100%;
+    height: 12vh;
+    background: rgb(255, 102, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.content__final p{
+    color: #fff;
+    font-size: 18px;
+}
+
+
+@media (max-width: 667px) {
+    .content__final{
+        margin-top: 100%;
+    }
+    .content__final p{
+        color: #fff;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 465px){
+    .content__final{
+        margin-top: 150%;
+        position: relative;
+        flex-direction: column;
+    }
+    .content__final p{
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 297px){
+    .content__final{
+        margin-top: 200%;
+        position: relative;
+        flex-direction: column;
+    }
+    .content__final p{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .List__icons--Sociais li{
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+}

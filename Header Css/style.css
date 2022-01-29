@@ -1,0 +1,116 @@
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(61, 61, 61);
+    padding: 10px 20px;
+    color: #fff;
+    align-items: center;
+}
+
+.Header__titulo h2{
+    font-size: 18px;
+}
+
+.List__icons--Sociais li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    background: rgb(89, 89, 100);
+    text-align: center;
+}
+
+.img__logo{
+    width: 100%;
+    height: 15vh;
+    background: rgb(255, 132, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.img__loja{
+    background: url("moda8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.List__icons--Sociais li{
+    font-size: 20px;
+    background: none;
+}
+
+@media (max-width: 1024px){
+    .img__loja{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 540px) {
+    .List__icons--Sociais li{
+        width: 22px;
+        height: 22px;
+    }
+    .img__logo{
+        height: 12vh;
+    }
+    .img__logo img{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 515px){
+    .header{
+        flex-direction: column;
+    }
+    .Header__titulo h2{
+        font-size: 18px;
+        padding-bottom:20px;
+    }
+}
+
+@media (max-width: 360px){
+    .Header__titulo h2{
+        font-size: 20px;
+        padding-bottom:20px;
+    }
+    .List__icons--Sociais li{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 280px) {
+    .List__icons--Sociais li{
+        width: 20px;
+        height: 20px;
+    }
+    .Header__titulo h2{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .img__logo{
+        height: 11vh;
+    }
+    .img__logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .img__loja{
+        height: 50vh;
+    }
+}

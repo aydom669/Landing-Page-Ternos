@@ -1,0 +1,138 @@
+.section__Card--avaliação{
+    width: 100%;
+    height: 65vh;
+    margin-top: 60px;
+}
+
+.conteiener__text{
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.card__txt h3{
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: rgb(70, 67, 67);
+}
+
+.card__txt p{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(89, 83, 83);
+}
+
+.conteiner__box{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__box{
+    width: 50%;
+    height: 80%;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.card__box--img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.img--1{
+    background: #666;
+}
+.img--2{
+    background: rgb(221, 160, 28);
+}
+.img--3{
+    background: rgb(214, 42, 42);
+}
+.card__box--img img{
+    width: 45px;
+    position: relative;
+}
+
+.card__box h3{
+    font-size: 23px;
+    color: rgb(77, 74, 74);
+    margin-bottom: 15px;
+}
+
+.card__box p{
+    color: rgb(116, 110, 110);
+}
+
+.card__box span{
+    color: rgb(116, 110, 110);
+}
+
+.btn--link{
+    position: relative;
+    top: 30px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(111, 107, 107);
+}
+
+/* Medias Querie
+==========================================================*/
+
+@media (max-width: 1024px){
+    .section__Card--avaliação{
+        height: 80vh;
+    }
+}
+
+@media (max-width: 687px) {
+    .conteiner__box{
+        width: 100%;
+        height: 150vh;
+        flex-direction: column;
+    }
+    .card__box{
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 399px) {
+    .btn--link{
+        font-size: 15px;
+    }
+    
+    .card__box p{
+         color: rgb(116, 110, 110);
+         font-size: 16px;
+    }
+    .card__box span{
+        color: rgb(116, 110, 110);
+        font-size: 14px;
+    }
+    .card__box{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 360px){
+    .card__box h3{
+        font-size: 18px;
+    }
+    .btn--link{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+}
+
+
+   
