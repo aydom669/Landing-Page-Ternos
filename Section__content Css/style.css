@@ -45,6 +45,7 @@ main{
 @media (max-width: 711px) {
     .section__conteudo{
         width: 100%;
+         height: 90vh;
         text-align: center;
     }
     .box__Titulo{
