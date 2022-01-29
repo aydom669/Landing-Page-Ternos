@@ -88,6 +88,12 @@ main{
     }
 }
 
+@media (max-width: 323px){
+    .section__conteudo{
+        height: 80vh;
+    }
+}
+
 @media (max-width: 280px) {
     .box__Titulo{
         width: 100%;
