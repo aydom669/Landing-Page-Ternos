@@ -105,7 +105,10 @@
     }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 483px) {
+    .section__Card--avaliação{
+        height: 100vh;
+    }
     .btn--link{
         font-size: 15px;
     }
@@ -135,4 +138,5 @@
 }
 
 
+   
    
